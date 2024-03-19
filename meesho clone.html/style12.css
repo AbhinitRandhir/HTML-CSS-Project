@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+nav img{
+    width: 25%;
+    font-size: 20px;
+    margin-top: -4.8%;
+}
+nav .down{
+    display: flex;
+}
+nav .down i{
+    margin-inline: 11px;
+    margin-top: 58%;
+}
+nav .down p{
+    margin-top: 55%;
+}
+nav .down p:hover{
+    color: rgb(246, 8, 8);
+    cursor: pointer;
+}
+nav .icon .pro i {
+    margin-inline: 11px;
+    margin-top: 140%;
+    margin-left: -110%;
+}
+nav .icon .pro p{
+    margin-left: -50%;
+    margin-top: -40%;
+}
+nav .icon .pro p:hover{
+    color: rgb(1, 252, 43);
+    cursor: pointer;
+}
+nav .ico .cart i{
+    margin-top:220%;
+    margin-left: -290%;
+}
+nav .ico .cart p{
+    margin-left: -200%;
+    margin-top: -70%;
+}
+nav .ico .cart p:hover{
+    color: rgb(20, 3, 254);
+    cursor: pointer;
+}
+nav input{
+    width: 320px;
+    height: 40px;
+    outline: none;
+    margin-top: 4%;
+    margin-left: -9%;
+}
+
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border: 2px solid rgb(246, 242, 242);
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    margin-top: -55px;
+    font-weight: 600;
+}
+.sec-nav p:hover{
+    color: rgb(246, 8, 8);
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.main .text{
+    width: 700px;
+    height: 350px;
+    background-color: rgb(248, 244, 244);
+    
+}
+.main .text h1{
+    font-size: 44px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.main .text h2{
+    font-size: 30px;
+    margin-left: 50px;
+    color: red;
+}
+.main .txt{
+    display: flex;
+    justify-content: left;
+}
+.main .txt p{
+    margin-top: 50%;
+    font-size: 24px;
+    margin-right:-50%;
+    margin-left: -43%;
+
+}
+.main button{
+    width: 300px;
+    height: 43px;
+    background-color: rgb(254, 25, 63);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    margin-top: 280px;
+    margin-left: -63%;
+}
+.main  button:hover{
+    background-color: transparent;
+    border: 3px solid rgb(235, 20, 56);
+    color: rgb(239, 27, 63);
+}
+.top-cat h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 34px;
+    padding: 22px;
+}
+.top-cat .fs{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    background-color: #fff7f9;
+    margin-left: 150px;
+    border-radius: 100%;
+    
+}
+.top-cat .fs-text h1{
+    font-size: 75px;
+    margin-top: 44px;
+}
+.hat h1{
+    
+        text-align: right;
+        margin-right: 12%;
+        font-size: 44px;
+        margin-top: -300px;
+        padding: 33px;
+    
+}
+.seller img{
+    width: 1200px;
+    margin-left: 160px;
+    margin-top: 4%;
+}
+.hatt h2{
+    text-align: center;
+    font-size: 33px;
+    margin-top: 33px;
+    
+}
+.card{
+    margin-top: 33px;
+}
+.crd{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.crd .img{
+    border: 2px solid rgb(222, 220, 220);
+}
+.crd .img img{
+    width: 82%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 44px;
+    padding: 55px;
+    background-color: rgb(237, 234, 234);
+}
+.footer .icons{
+    display: flex;
+
+}
+.footer .list .icons i{
+    margin-inline:11px;
+    font-size:33px;
+
+}
+.footer .list .fc{
+    color: blue;
+}
+.footer .list .inst{
+    color: rgb(253, 28, 28);
+}
+.footer .list .yt{
+    color: rgb(255, 0, 0);
+}
+.footer .list .twt{
+    color: blue;
+}
+.to{
+    margin-top: -23%;
+    margin-left: 57%;
+}
