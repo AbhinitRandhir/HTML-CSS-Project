@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta lang="en-US">
+<meta charset="utf-8">
+<link rel="stylesheet" href="style/a.css">
+<script src="script.js"></script>
+</head>
+<body>
+<header><center><h1>Address Maker</h1></center>
+<center><font size="4" face="calibri" >An Online Address Creater Tool</center>
+</header>
+<section>
+<div class="con_left">
+	<form name="wap" onsubmit="return main()">
+	<h1 class="form_header"><center>Type Your Information Here</center></h1>
+	Name:<br>
+	<input type="text" name="name"><br><br>
+	Mobile No:<br>
+	<input type="number" name="mobile"><br><br>
+	Alternate Mobile No:<br>
+	<input type="number" name="al_mobile"><br><br>
+	S/O, W/O, H/O:<br>
+	<input type="text" name="spouse"><br><br>
+	Email:<br>
+	<input type="email" name="email"><br><br>
+	Address:<br>
+	<textarea cols="60" rows="10" name="address"></textarea><br><br>
+
+	<input type="submit" value="Make" name="submit">
+	</form>
+</div>
+<!--container left close-->
+
+<div class="con_right">
+	<div class="templete">
+	<div class="header">
+		<div id="header_left"></div>
+		<div id="header_right_one"></div>
+		<div id="header_right_two"></div>
+	</div>
+		<div class="prefix_con">
+
+			<div id="spouse"></div>
+			<div id="email"></div>
+			<pre id="address"></pre>
+
+		</div>
+
+	</div>
+	<center><button onclick="print()">Print</button>
+			<button onclick="formating()">Bold</button>
+			<button onclick="font_style()">Italic</button>
+			<button onclick="undo()">Undo</button>
+			</center>
+</div>
+</section>
+</body>
+</html>

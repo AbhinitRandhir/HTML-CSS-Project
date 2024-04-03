@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+h1,h2,h3,body,pre{
+	margin:0;
+	padding:0;
+}
+body{
+	width:1349px;
+	height:1000px;	
+	background-image:url(images/page_bg2.jpg);
+	background-size:100% 100%; 
+	
+
+}
+
+
+header{
+	float:left;
+	width:1349px;
+	height:100px;
+	font-family: cursive;
+	color:white;
+	font-size:25px;
+	background-color: rgba(0,0,0,0.5);
+	line-height: 40px;
+	box-sizing: border-box;
+	padding-top: 15px;
+	border-bottom:1px solid lightgrey;
+
+}
+section{
+	float:left;
+	width:1349px;
+	height:900px;
+	background-color: rgba(0,0,0,0.5);
+	box-sizing: border-box;
+	padding:80px;
+}
+
+.con_left{
+	float:left;
+	width:500px;
+	height:820px;
+	box-sizing: border-box;
+	padding:10px;
+}
+form{
+	color:white;
+	font-family: century gothic;
+	font-size:20px;
+}
+.form_header{
+	height:100px;
+	color:white;
+	font-family:century;
+
+}
+
+input[type="text"],input[type="number"],input[type="email"]{
+	width:470px;
+	height:30px;
+	border:none;
+	color:white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.5);
+}
+
+textarea{
+	border:none;
+	color:white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.5);
+}
+
+input[type=submit]{
+	float:right;
+	width:100px;
+	height:40px;
+	color:white;
+	border:none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.5);
+}
+
+.con_right{
+	float:right;
+	width:450px;
+	height:330px;
+	border:1px solid lightgrey;
+}
+.templete{
+	float:left;
+	width:450px;
+	height:260px;
+	background-image: url(images/card.jpg);
+	background-size: 100% 100%;
+	border:1px solid lightgrey;
+	box-sizing: border-box;
+	padding-left: 70px;
+	padding-right: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.header{
+	float:left;
+	width:310px;
+	height:100px;
+	color:gold;
+	font-family: cursive;
+	box-sizing: border-box;
+	
+	
+}
+#header_left{
+	float:left;
+	width:205px;
+	height:100px;
+	font-size:22px;
+	box-sizing:border-box;
+	padding-top: 65px;
+	
+}
+
+#header_right_one{
+	float:right;
+	width:100px;
+	height:25px;
+	font-size: 12px;
+	text-align: right;
+	
+
+}
+#header_right_two{
+	float:right;
+	width:100px;
+	font-size: 12px;
+	height:25px;
+	text-align: right;
+	
+
+}
+.prefix_con{
+	float:left;
+	width:310px;
+	height:130px;
+	color:white;
+	box-sizing: border-box;
+	padding:5px;
+	padding-top: 0px;
+	font-family: century;
+	font-size:20px;
+	
+}
+
+#spouse,#email{
+	float:left;
+	width:295px;
+	height:23px;
+	font-size: 15px;
+	font-family: century gothic;
+	
+}
+
+#address{
+	float:left;
+	display:block;
+	width:295px;
+	height:80px;
+	font-size: 14px;
+	line-height: 22px;
+	font-family:century gothic;
+	
+	
+}
+
+button{
+	width:100px;
+	height:40px;
+	border:none;
+	color:white;
+	font-size: 17px;
+	background-color: rgba(0,0,0,0.5);
+}
